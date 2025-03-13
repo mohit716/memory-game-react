@@ -1,0 +1,36 @@
+/* src/styles/GameBoard.css */
+.game-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  max-width: 800px; /* enough space for bigger cards */
+}
+
+.game-board {
+  display: grid;
+  grid-template-columns: repeat(4, 120px);
+  gap: 15px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.game-over {
+  color: #0f0; /* bright green text for contrast on darker green BG */
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px 0;
+  background-color: #444;
+  color: #fff;
+  border: 1px solid #999;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #666;
+}
